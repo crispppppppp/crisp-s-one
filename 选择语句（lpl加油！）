@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main()
+{
+    int coding = 0;
+    printf("jdg会夺冠嘛？（选择1 or 0）:>");
+    scanf("%d", &coding);
+    if (coding == 1)
+    {
+        printf("夺冠，lpl牛逼，此志无双，京东双11\n");
+    }
+    else
+    {
+        printf("失败，lck的宰制时至今日还在继续但我相信不是今天，lpl加油！\n");
+    }
+    return 0;
+}
