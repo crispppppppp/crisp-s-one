@@ -18,7 +18,8 @@ int main()
 		printf("休息日\n");
 		break;
 		default:
-		printf("输入错误"）;
+		printf("输入错误\n"）;
+		break;
 	}
 	return 0;
 }
